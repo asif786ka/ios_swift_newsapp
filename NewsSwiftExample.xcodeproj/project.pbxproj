@@ -13,6 +13,8 @@
 		28FB9DE5269346FD005BBE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FB9DE3269346FD005BBE45 /* Main.storyboard */; };
 		28FB9DE726934704005BBE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FB9DE626934704005BBE45 /* Assets.xcassets */; };
 		28FB9DEA26934704005BBE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FB9DE826934704005BBE45 /* LaunchScreen.storyboard */; };
+		28FB9DF326934927005BBE45 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB9DF226934927005BBE45 /* APICaller.swift */; };
+		28FB9DF62693592F005BBE45 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB9DF52693592F005BBE45 /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		28FB9DE626934704005BBE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FB9DE926934704005BBE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28FB9DEB26934704005BBE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FB9DF226934927005BBE45 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		28FB9DF52693592F005BBE45 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				28FB9DE626934704005BBE45 /* Assets.xcassets */,
 				28FB9DE826934704005BBE45 /* LaunchScreen.storyboard */,
 				28FB9DEB26934704005BBE45 /* Info.plist */,
+				28FB9DF226934927005BBE45 /* APICaller.swift */,
+				28FB9DF52693592F005BBE45 /* NewsTableViewCell.swift */,
 			);
 			path = NewsSwiftExample;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				28FB9DE2269346FD005BBE45 /* ViewController.swift in Sources */,
 				28FB9DDE269346FD005BBE45 /* AppDelegate.swift in Sources */,
+				28FB9DF62693592F005BBE45 /* NewsTableViewCell.swift in Sources */,
 				28FB9DE0269346FD005BBE45 /* SceneDelegate.swift in Sources */,
+				28FB9DF326934927005BBE45 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
